@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新增</title>
+    <script src="../js/JavaScript/jquery.js"></script>
+    <script src="../js/JavaScript/pintuer.js"></script>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/pintuer.css">
+    <script src="../js/common/base.js"></script>
+    <script src="../js/common/normal.js"></script>
+</head>
+<body>
+<div style="width: 100%;height: 100%" align="center">
+    <div style="width: 40%;height: 50%">
+        <form id="fr">
+            <table>
+                <tr>
+                    <td colspan="2">新增理财信息</td>
+                </tr>
+                <tr>
+                    <td>产品代码：</td>
+                    <td>
+                        <input type="text" name="id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>风险评级：</td>
+                    <td>
+                        <select name="risk" id="risk">
+                            <option value="0">请选择</option>
+                            <option value="1">R1</option>
+                            <option value="2">R2</option>
+                            <option value="3">R3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>预期收益：</td>
+                    <td>
+                        <input type="text" name="income">
+                    </td>
+                </tr>
+                <tr>
+                    <td>发售起始日：</td>
+                    <td>
+                        <input type="text" name="salestarting"><span>yyyy-MM-dd</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>发售截止日：</td>
+                    <td>
+                        <input type="text" name="saleend"><span>yyyy-MM-dd</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>产品到期日：</td>
+                    <td>
+                        <input type="text" name="end"><span>yyyy-MM-dd</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="保存" onclick="bao()">
+                        <input type="button" value="取消" onclick="fan()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function fan() {
+        window.location.href = "index.html";
+    }
+
+    function bao() {
+        var id = $("[name=id]").val();
+        var risk = $("[name=risk]").val();
+        var income = $("[name=income]").val();
+        var salestarting = $("[name=salestarting]").val();
+        var saleend = $("[name=saleend]").val();
+        var end = $("[name=end]").val();
+        var reg = /^(\d{4})\-(\d{2}|\d{1})\-(\d{2}|\d{1})$/;
+        if (id != "" && id != null) {
+            if (risk === 0) {
+                if (income != "" && income != null) {
+                    if (reg.test(salestarting)) {
+                        if (reg.test(saleend)) {
+                            if (reg.test(end)) {
+                                $.post("insFinancingproduct", {
+                                    id: id,
+                                    risk: risk,
+                                    income: income,
+                                    salestarting: salestarting,
+                                    saleend: saleend,
+                                    end: end
+                                }, function (result) {
+                                    var obj = $.dealJSONObj(result);
+                                    if (obj.code === 0) {
+                                        if (confirm("添加成功，还要继续添加吗？")) {
+                                            document.getElementById("fr").reset();
+                                        } else {
+                                            window.location.href = "index.html";
+                                        }
+                                    }
+                                })
+                            } else {
+                                alert("请输入正确的时间3")
+                            }
+                        } else {
+                            alert("请输入正确的时间2")
+                        }
+                    } else {
+                        alert("请输入正确的时间1")
+                    }
+                } else {
+                    alert("请填写预期收入")
+                }
+            } else {
+                alert("请选择风险等级")
+            }
+        } else {
+            alert("请填写产品代码")
+        }
+
+    }
+</script>

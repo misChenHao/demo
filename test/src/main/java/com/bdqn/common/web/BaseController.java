@@ -1,10 +1,10 @@
 package com.bdqn.common.web;
 
-import com.bdqn.airquality.common.Constants;
-import com.bdqn.airquality.common.exception.BizException;
-import com.bdqn.airquality.common.exception.CustomException;
-import com.bdqn.airquality.common.utils.JsonUtil;
-import com.bdqn.airquality.common.utils.StringUtils;
+import com.bdqn.common.Constants;
+import com.bdqn.common.exception.BizException;
+import com.bdqn.common.exception.CustomException;
+import com.bdqn.common.utils.JsonUtil;
+import com.bdqn.common.utils.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.propertyeditors.CustomDateEditor;

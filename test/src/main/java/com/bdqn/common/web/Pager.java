@@ -1,6 +1,6 @@
 package com.bdqn.common.web;
 
-import com.bdqn.airquality.common.config.PageConfig;
+import com.bdqn.common.config.PageConfig;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,0 +1,289 @@
+2019-05-07 11:14:25,727 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 7348 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 11:14:25,802 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:14:25,805 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 11:16:17,787 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 9224 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 11:16:17,851 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:16:17,853 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 11:16:49,248 INFO (StartupInfoLogger.java:59)- Started TestApplication in 35.179 seconds (JVM running for 45.231)
+2019-05-07 11:56:29,497 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 2028 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 11:56:29,560 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 11:56:29,564 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 11:56:51,014 INFO (StartupInfoLogger.java:59)- Started TestApplication in 28.468 seconds (JVM running for 39.035)
+2019-05-07 12:05:57,202 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 4468 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 12:05:57,260 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:05:57,260 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 12:06:05,467 INFO (StartupInfoLogger.java:59)- Started TestApplication in 10.819 seconds (JVM running for 20.839)
+2019-05-07 12:08:26,310 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 5056 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 12:08:26,320 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:08:26,321 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 12:08:34,934 INFO (StartupInfoLogger.java:59)- Started TestApplication in 9.5 seconds (JVM running for 13.754)
+2019-05-07 12:08:51,426 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:08:51,511 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:08:51,833 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:09:44,232 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:09:44,234 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:09:44,242 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:09:46,047 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:11:34,311 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:11:34,312 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:11:34,317 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:11:35,769 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:11:35,776 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:11:35,781 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:11:38,342 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:12:16,509 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:14:14,937 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 5748 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 12:14:14,944 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:14:14,945 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 12:14:21,569 INFO (StartupInfoLogger.java:59)- Started TestApplication in 7.41 seconds (JVM running for 10.155)
+2019-05-07 12:14:28,164 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:14:28,207 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:14:28,254 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:14:34,496 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:14:34,498 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.55%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:14:34,512 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:15:23,757 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:15:23,758 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.56%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:15:23,759 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:18:08,245 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:18:08,246 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:18:08,249 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:18:11,587 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:18:11,596 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.55%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:18:11,599 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:19:22,488 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:19:22,489 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:19:22,492 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:19:25,710 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:19:25,793 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.55%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:19:25,795 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:19:52,309 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 8240 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 12:19:52,314 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:19:52,316 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 12:19:55,786 INFO (StartupInfoLogger.java:59)- Started TestApplication in 4.326 seconds (JVM running for 5.505)
+2019-05-07 12:20:02,526 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:20:02,567 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:20:02,626 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:20:03,727 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:20:03,729 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:20:03,733 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:20:08,743 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:20:08,745 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:20:08,818 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:20:15,477 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:20:15,479 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.56%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:20:15,480 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:20:47,948 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:20:47,950 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:20:47,986 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:20:48,816 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:20:48,818 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:20:48,824 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:21:05,036 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:21:05,039 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.55%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:21:05,042 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:25:23,057 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:25:23,060 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:25:23,094 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:25:27,097 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:25:27,100 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.55%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), null
+2019-05-07 12:25:27,103 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2019-05-07 12:25:52,661 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 4584 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 12:25:52,670 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 12:25:52,671 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 12:25:58,585 INFO (StartupInfoLogger.java:59)- Started TestApplication in 7.054 seconds (JVM running for 10.696)
+2019-05-07 12:26:27,422 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:26:27,553 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:26:27,728 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:26:28,795 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:26:28,809 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:26:28,814 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:26:30,185 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:26:30,186 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:26:30,195 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:26:33,259 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 12:26:33,308 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:26:33,310 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:26:40,846 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 12:26:40,849 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 5.56%(String), 2019-05-17(String), 2019-05-23(String), 2019-05-25(String), 310816(String)
+2019-05-07 12:26:40,935 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-05-07 12:26:41,983 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:26:41,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:26:41,994 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:26:49,141 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from financingproduct where id = ? 
+2019-05-07 12:26:49,142 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310816(String)
+2019-05-07 12:26:49,301 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-05-07 12:26:52,963 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:26:52,964 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:26:52,967 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 12:27:22,554 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:27:22,555 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 61(String)
+2019-05-07 12:27:22,562 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:27:27,810 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:27:27,810 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 61(String)
+2019-05-07 12:27:27,812 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:28:57,635 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:28:57,637 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:28:57,641 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 12:29:02,393 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:29:02,395 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 64(String)
+2019-05-07 12:29:02,396 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:29:08,033 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:29:08,034 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 61(String)
+2019-05-07 12:29:08,036 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:29:09,577 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:29:09,578 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 61(String)
+2019-05-07 12:29:09,579 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:29:12,602 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:29:12,603 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:29:12,609 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 12:30:25,781 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:30:25,784 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:30:25,788 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 12:30:31,612 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:30:31,614 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 61(String)
+2019-05-07 12:30:31,617 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2019-05-07 12:32:57,666 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:32:57,668 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 69(String)
+2019-05-07 12:32:57,671 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 12:33:04,948 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:33:04,950 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:33:04,953 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 12:36:39,274 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:36:39,276 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:36:39,279 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:41:58,348 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:41:58,355 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:41:58,370 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:42:33,898 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:42:33,900 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:42:33,905 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:42:36,204 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:42:36,205 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:42:36,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:42:39,094 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:42:39,095 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:42:39,098 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:43:13,338 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:43:13,339 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:43:13,345 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:43:14,106 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:43:14,112 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:43:14,121 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:43:25,121 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:43:25,122 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:43:25,198 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:43:26,134 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:43:26,136 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:43:26,139 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:43:57,396 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:43:57,397 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:43:57,401 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:44:05,761 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:44:05,763 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:44:05,767 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 12:44:06,651 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 12:44:06,653 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 12:44:06,658 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-05-07 13:06:07,823 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:06:07,920 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 12121(String), 2(Integer), 5.56%(String), 2019-05-07(String), 2019-06-07(String), 2019-06-30(String)
+2019-05-07 13:06:08,036 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-05-07 13:06:18,083 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:06:18,085 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:06:18,116 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:08:37,850 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:08:37,851 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:08:37,869 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:08:38,468 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:08:38,469 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:08:38,487 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:08:40,222 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:08:40,223 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(String)
+2019-05-07 13:08:40,234 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:08:44,812 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:08:44,827 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:08:44,844 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:09:20,615 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:20,638 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:09:22,812 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:22,816 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:09:24,349 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:24,352 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:09:24,760 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:24,763 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:09:25,275 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:25,286 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:09:25,418 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:09:25,448 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 32333(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:12:41,823 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 2428 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 13:12:41,850 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 13:12:41,850 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 13:12:47,564 INFO (StartupInfoLogger.java:59)- Started TestApplication in 8.843 seconds (JVM running for 16.26)
+2019-05-07 13:13:01,305 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:13:01,457 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:13:01,614 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:13:22,171 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:13:22,173 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 66352(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:15:25,859 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 1864 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 13:15:25,865 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 13:15:25,866 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 13:15:28,719 INFO (StartupInfoLogger.java:59)- Started TestApplication in 3.765 seconds (JVM running for 4.818)
+2019-05-07 13:15:37,448 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:15:37,473 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:15:37,505 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-05-07 13:15:51,802 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:15:51,804 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 45662(String), 3(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:25:53,033 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct (id, risk, income, saleStarting, saleEnd, `end`) values (id = ?,?, ?, ?, ?, ?) 
+2019-05-07 13:25:53,034 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 456627(String), 1(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:29:05,039 INFO (StartupInfoLogger.java:50)- Starting TestApplication on UDNVBQG0UTWTJFS with PID 8012 (C:\Users\Administrator\Desktop\test\test\target\classes started by Administrator in C:\Users\Administrator\Desktop\test\test)
+2019-05-07 13:29:05,053 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-07 13:29:05,055 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-07 13:29:10,080 INFO (StartupInfoLogger.java:59)- Started TestApplication in 5.99 seconds (JVM running for 14.186)
+2019-05-07 13:29:21,151 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:29:21,198 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:29:21,251 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-05-07 13:29:22,926 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:29:22,939 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:29:22,949 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-05-07 13:29:38,689 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: insert into financingproduct values (?,?, ?, ?, ?, ?) 
+2019-05-07 13:29:38,691 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 12356(String), 1(Integer), 5.56%(String), 2019-5-7(String), 2019-6-8(String), 2019-6-29(String)
+2019-05-07 13:29:38,784 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-05-07 13:33:55,173 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:33:55,174 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:33:55,187 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 6
+2019-05-07 13:34:00,863 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and risk like concat('%',?,'%') and id like concat('%',?,'%') 
+2019-05-07 13:34:00,864 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), (String)
+2019-05-07 13:34:00,866 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-05-07 13:34:05,951 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:34:05,952 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:34:05,955 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 6
+2019-05-07 13:34:10,868 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:34:10,869 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:34:10,873 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:34:59,311 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:34:59,316 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:34:59,319 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:06,429 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:06,433 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:06,436 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:07,209 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:07,211 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:07,216 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:07,684 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:07,685 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:07,688 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:07,842 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:07,844 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:07,849 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:08,028 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:08,032 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:08,035 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:10,496 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where id = ? 
+2019-05-07 13:35:10,500 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 310869(String)
+2019-05-07 13:35:10,503 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-05-07 13:35:12,158 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: update financingproduct set risk = ?, income = ?, saleStarting = ?, saleEnd = ?, `end` = ? where id = ? 
+2019-05-07 13:35:12,162 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), 5.70%(String), 2019-05-08(String), 2019-05-15(String), 2019-05-22(String), 310869(String)
+2019-05-07 13:35:12,294 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-05-07 13:35:13,738 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select id, risk, income, saleStarting, saleEnd, `end` from financingproduct where 1=1 and id like concat('%',?,'%') 
+2019-05-07 13:35:13,739 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2019-05-07 13:35:13,744 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 6

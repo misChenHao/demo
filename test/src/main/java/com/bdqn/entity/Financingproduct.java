@@ -5,42 +5,42 @@ import java.util.Date;
 
 public class Financingproduct implements Serializable {
     /**
-    * 
-    */
-    private Integer id;
+     *
+     */
+    private String id;
 
     /**
-    * 风险评级
-    */
+     * 风险评级
+     */
     private Integer risk;
 
     /**
-    * 预期收益
-    */
+     * 预期收益
+     */
     private String income;
 
     /**
-    * 发售起始日期
-    */
-    private Date salestarting;
+     * 发售起始日期
+     */
+    private String salestarting;
 
     /**
-    * 发售截止日期
-    */
-    private Date saleend;
+     * 发售截止日期
+     */
+    private String saleend;
 
     /**
-    * 产品到期日
-    */
-    private Date end;
+     * 产品到期日
+     */
+    private String end;
 
     private static final long serialVersionUID = 1L;
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -60,27 +60,27 @@ public class Financingproduct implements Serializable {
         this.income = income == null ? null : income.trim();
     }
 
-    public Date getSalestarting() {
+    public String getSalestarting() {
         return salestarting;
     }
 
-    public void setSalestarting(Date salestarting) {
+    public void setSalestarting(String salestarting) {
         this.salestarting = salestarting;
     }
 
-    public Date getSaleend() {
+    public String getSaleend() {
         return saleend;
     }
 
-    public void setSaleend(Date saleend) {
+    public void setSaleend(String saleend) {
         this.saleend = saleend;
     }
 
-    public Date getEnd() {
+    public String getEnd() {
         return end;
     }
 
-    public void setEnd(Date end) {
+    public void setEnd(String end) {
         this.end = end;
     }
 }
