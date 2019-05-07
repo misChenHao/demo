@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bdqn.mapper.FinancingproductMapper">
+  <resultMap id="BaseResultMap" type="com.bdqn.entity.Financingproduct">
+    <!--@mbg.generated-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="risk" jdbcType="INTEGER" property="risk" />
+    <result column="income" jdbcType="VARCHAR" property="income" />
+    <result column="saleStarting" jdbcType="DATE" property="salestarting" />
+    <result column="saleEnd" jdbcType="DATE" property="saleend" />
+    <result column="end" jdbcType="DATE" property="end" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, risk, income, saleStarting, saleEnd, `end`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from financingproduct
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--@mbg.generated-->
+    delete from financingproduct
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.bdqn.entity.Financingproduct" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into financingproduct (risk, income, saleStarting, 
+      saleEnd, `end`)
+    values (#{risk,jdbcType=INTEGER}, #{income,jdbcType=VARCHAR}, #{salestarting,jdbcType=DATE}, 
+      #{saleend,jdbcType=DATE}, #{end,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.bdqn.entity.Financingproduct" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into financingproduct
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="risk != null">
+        risk,
+      </if>
+      <if test="income != null">
+        income,
+      </if>
+      <if test="salestarting != null">
+        saleStarting,
+      </if>
+      <if test="saleend != null">
+        saleEnd,
+      </if>
+      <if test="end != null">
+        `end`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="risk != null">
+        #{risk,jdbcType=INTEGER},
+      </if>
+      <if test="income != null">
+        #{income,jdbcType=VARCHAR},
+      </if>
+      <if test="salestarting != null">
+        #{salestarting,jdbcType=DATE},
+      </if>
+      <if test="saleend != null">
+        #{saleend,jdbcType=DATE},
+      </if>
+      <if test="end != null">
+        #{end,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.bdqn.entity.Financingproduct">
+    <!--@mbg.generated-->
+    update financingproduct
+    <set>
+      <if test="risk != null">
+        risk = #{risk,jdbcType=INTEGER},
+      </if>
+      <if test="income != null">
+        income = #{income,jdbcType=VARCHAR},
+      </if>
+      <if test="salestarting != null">
+        saleStarting = #{salestarting,jdbcType=DATE},
+      </if>
+      <if test="saleend != null">
+        saleEnd = #{saleend,jdbcType=DATE},
+      </if>
+      <if test="end != null">
+        `end` = #{end,jdbcType=DATE},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.bdqn.entity.Financingproduct">
+    <!--@mbg.generated-->
+    update financingproduct
+    set risk = #{risk,jdbcType=INTEGER},
+      income = #{income,jdbcType=VARCHAR},
+      saleStarting = #{salestarting,jdbcType=DATE},
+      saleEnd = #{saleend,jdbcType=DATE},
+      `end` = #{end,jdbcType=DATE}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
